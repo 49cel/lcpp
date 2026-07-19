@@ -1,0 +1,1 @@
+// using namespaces will be taught in a later chapter, this was just a brief introduction
