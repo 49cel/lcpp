@@ -9,3 +9,5 @@
 #### 4. file compiling in cpp, how multi file programs work 
 
 #### 5. brief intro to cmake so that i can use it at the very least
+
+#### 6. learn about cpp design and implementation principles

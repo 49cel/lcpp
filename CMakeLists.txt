@@ -16,4 +16,6 @@ endforeach()
 
 # Manually built multi-file programs
 add_executable(ch2-8 src/ch2/ch2-8.cpp src/ch2/add.cpp)
-add_executable(ch2-11 src/ch2/ch2-11.cpp src/ch2/add.cpp)
+add_executable(ch2-11 src/ch2/ch2-11.cpp src/ch2/add.cpp
+        src/ch2/ch2-12.cpp
+        src/ch2/ch2-13.cpp)
