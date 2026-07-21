@@ -11,3 +11,5 @@
 #### 5. brief intro to cmake so that i can use it at the very least
 
 #### 6. learn about cpp design and implementation principles
+
+#### 7. ch 2.x ending problems

@@ -1,0 +1,1 @@
+// refer to ch 3.1 on lcpp to find examples of code with both types of errors
