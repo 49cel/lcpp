@@ -14,7 +14,8 @@ foreach(SOURCE ${SOURCES})
     add_executable(${NAME} ${SOURCE}
             src/ch3/ch3-01.cpp
             src/ch3/ch3-02.cpp
-            src/ch3/ch3-03.cpp)
+            src/ch3/ch3-03.cpp
+            src/ch3/ch3-04.cpp)
 endforeach()
 
 # Manually built multi-file programs
