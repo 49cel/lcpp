@@ -20,7 +20,8 @@ foreach(SOURCE ${SOURCES})
             src/ch3/ch3-06.cpp
             src/ch3/ch3-07.cpp
             src/ch3/ch3-08.cpp
-            src/ch3/ch3-09.cpp)
+            src/ch3/ch3-09.cpp
+            src/ch3/ch3-10.cpp)
 endforeach()
 
 # Manually built multi-file programs

@@ -1,0 +1,1 @@
+// jus remember the albert epstein quote from notes
