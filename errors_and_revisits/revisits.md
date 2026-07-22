@@ -13,3 +13,5 @@
 #### 6. learn about cpp design and implementation principles
 
 #### 7. ch 2.x ending problems
+
+#### 8. the process of logging and how to use the log library and plog in cpp
