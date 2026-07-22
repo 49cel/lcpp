@@ -1,0 +1,1 @@
+// refer to ch 3.8 on learncpp and watch clion's debugger guide on youtube to understand how to watch variables during debugging mode
