@@ -15,3 +15,5 @@
 #### 7. ch 2.x ending problems
 
 #### 8. the process of logging and how to use the log library and plog in cpp
+
+#### 9. why are empty parentheses preferred over 'void' to depict that a function has no parameters in c++, but 'void' is used to represent no parameters in c?
