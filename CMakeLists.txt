@@ -12,7 +12,8 @@ list(REMOVE_ITEM SOURCES "${CMAKE_SOURCE_DIR}/src/ch2/ch2-11.cpp")
 foreach(SOURCE ${SOURCES})
     get_filename_component(NAME ${SOURCE} NAME_WE)
     add_executable(${NAME} ${SOURCE}
-            src/ch4/ch4-11.cpp)
+            src/ch4/ch4-11.cpp
+            src/ch4/ch4-12.cpp)
 endforeach()
 
 # Manually built multi-file programs
