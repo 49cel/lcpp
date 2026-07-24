@@ -1,0 +1,1 @@
+// refer to ch 4.11 on learncpp to understand how char variables work and for the ascii values + escape sequences
