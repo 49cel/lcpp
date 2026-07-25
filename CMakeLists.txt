@@ -10,7 +10,8 @@ list(REMOVE_ITEM SOURCES "${CMAKE_SOURCE_DIR}/src/ch02/ch2-11.cpp")
 
 foreach(SOURCE ${SOURCES})
     get_filename_component(NAME ${SOURCE} NAME_WE)
-    add_executable(${NAME} ${SOURCE})
+    add_executable(${NAME} ${SOURCE}
+            src/ch05/ch5-02.cpp)
 endforeach()
 
 add_executable(ch2-8 src/ch02/ch2-08.cpp src/ch02/add.cpp)
