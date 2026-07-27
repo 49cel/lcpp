@@ -21,3 +21,7 @@
 #### 11. ch 4.x summary and quiz and ch4-03.cpp
 
 #### 12. why was hexadecimal prefix being used for binary literals before c++14?
+
+#### 13. why do we need to write better code if cpp compiler has built-in optimization? (probably a stupid question)
+
+#### 14. compiler optimization techniques

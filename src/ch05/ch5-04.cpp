@@ -1,0 +1,1 @@
+// refer to ch 5.4 on learncpp to read more about compile time evaluation and optimization
