@@ -25,3 +25,5 @@
 #### 13. why do we need to write better code if cpp compiler has built-in optimization? (probably a stupid question)
 
 #### 14. compiler optimization techniques
+
+#### 15. why are only integral values counted towards constant expressions without constexpr variables?
