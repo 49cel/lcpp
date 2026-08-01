@@ -27,3 +27,5 @@
 #### 14. compiler optimization techniques
 
 #### 15. why are only integral values counted towards constant expressions without constexpr variables?
+
+#### 16. ch 5.7 problem at the end
