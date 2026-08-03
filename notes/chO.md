@@ -1,6 +1,6 @@
 # chO - bit manipulation
 
-### O1 - bit flas and bit manipulation via std::bitset
+### O1 - bit flags and bit manipulation via std::bitset
 - - -
 - modifying individual bits within an object is called **bit manipulation**
 - instead of viewing objects holding a single value, we can treat each bit in that object as an independent boolean value, when individual bits of an object are used as boolean values, the bits are called **bit flags**
@@ -22,3 +22,10 @@
     9. `none()` - returns a boolean indicating whether no bits are set to `true`
 - `std::bitset` will use either 4 or 8 bytes of memory, even though it only needs 1 byte to store 8 bits, thus it is mostly used for convenience rather than memory optimization
 
+### O2 - bitwise operators
+- - -
+- in cpp we have six bit manipulation operators, called **bitwise** operators, they are non-modifying operators so they do not modify their operands unless explicitly stated
+
+![img.png](img_19.png)
+
+- 
