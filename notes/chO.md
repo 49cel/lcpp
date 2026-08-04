@@ -26,6 +26,18 @@
 - - -
 - in cpp we have six bit manipulation operators, called **bitwise** operators, they are non-modifying operators so they do not modify their operands unless explicitly stated
 
-![img.png](img_19.png)
+![img.png](images/img_19.png)
 
-- 
+- bitwise operators only defined for integral data types and `std::bitset`, it is a common practice to avoid using signed integers with bitwise operators, because manipulating the bits also affects the sign bit
+- the left shift operator `<<` shifts bits to the left and the right shift operator `>>` shifts bits to the right, bits that are shifted off the end of the bit sequence are lost forever, the new bits are replaced with 0 
+- when using the `<</>>` operator for both output and shifting bits, parenthesization is required to use for it for shifting
+- the bitwise NOT (`~`) is quite simple, it just flips each bit from a 0 to 1 and a 1 to 0
+- we've seen how the bitwise OR works already in the earlier chapter, it evaluates to true when either of the operands are true, otherwise false, the logical OR `(||)` treats the entire operand as a single value, where as bitwise OR `(|)` is applied to each pair of bits in the operands
+- bitwise AND (`&`) works in a similar way like stated above, with different logic, i.e true if both paired bits are 1 and false otherwise
+- bitwise XOR (`^`) is also known as exclusive or, when working with a *pair* of operands, it sets the resulting bit to true when the paired bits are **different**, however when evaluated in a compound expression, the resulting bit is true if there are are an odd number of 1 bits in that columns, 0 otherwise
+- since they are non-modifying operators, we use the assignment operator along with them to modify the bits:
+
+![img.png](images/img_20.png)
+
+- a **bitwise rotation** is like a bitwise shift, but the bits shifted off one end are added to the other end instead of being lost forever
+
