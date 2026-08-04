@@ -33,3 +33,5 @@
 #### 17. operator precedence and associativity
 
 #### 18. bit manipulation and bit masking (the more complicated examples at the end)
+
+#### 19. floating point values in binary (not a revisit, but curious)

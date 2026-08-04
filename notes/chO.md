@@ -49,3 +49,10 @@
 - to reset (turn off) a bit, we use bitwise AND and bitwise NOT together and the assignment operator (`&= ~`), with the appropriate bit masks, multiple bits can be reset simultaneously this way as well
 - to flip a bit, we use bitwise XOR assignment (`^=`), with the appropriate bit mask, can also be used to flip multiple bits at once
 
+### O4 - converting integers between binary and decimal representation 
+- - -
+- this lesson is pretty straightforward and i know the concepts being taught here already, so i will only be noting down what i don't know and what's important, visit the site if you want to recall
+- signed integers are stored using a method known as **two's complement**, the leftmost (most significant bit) is used as the sign bit, a `0` sign bit means the number is positive and a `1` sign bit means the number is negative
+- positive signed numbers are represented in binary the same way as positive unsigned numbers, with the sign bit set to 0
+- negative signed numbers are represented in binary as the bitwise inverse of the positive number plus 1
+- read the explanation in chapter O.4 about why we add 1 after inverting the bits in two's complement
