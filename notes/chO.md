@@ -41,3 +41,11 @@
 
 - a **bitwise rotation** is like a bitwise shift, but the bits shifted off one end are added to the other end instead of being lost forever
 
+### O3 - bit manipuation with bitwise operators and bit masks
+- - -
+- in order to manipulate individual bits, we need a way to identify the bits we want to manipulate, a **bit mask** is a number that marks which bit positions you care about, so an operation only affects those spots and ignores everything else, the bit mask blocks the bitwise operators from touching bits we don’t want modified, and allows access to the ones we do want modified
+- to check if a bit is on, we use bitwise AND (`&`) with the appropriate bit mask
+- to set (turn on) a bit, we use the bitwise OR assignment (`|=`) operator with the appropriate bit mask, multiple bits can be set simultaneously this way
+- to reset (turn off) a bit, we use bitwise AND and bitwise NOT together and the assignment operator (`&= ~`), with the appropriate bit masks, multiple bits can be reset simultaneously this way as well
+- to flip a bit, we use bitwise XOR assignment (`^=`), with the appropriate bit mask, can also be used to flip multiple bits at once
+
