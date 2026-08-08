@@ -1,3 +1,1 @@
-//
-// Created by hua on 7/28/26.
-//
+// refer to learncpp to read more about constant expressions, it is also covered in the later source files
