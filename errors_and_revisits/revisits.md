@@ -35,3 +35,5 @@
 #### 18. bit manipulation and bit masking (the more complicated examples at the end)
 
 #### 19. floating point values in binary (not a revisit, but curious)
+
+#### 20. difference bw storage duration and lifetime (they're confusing asf, sounds like the same thing honestly)
