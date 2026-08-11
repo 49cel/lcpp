@@ -30,6 +30,8 @@
 
 #### 16. ch 5.7 problem at the end
 
+#### 17. why are global variables (non-const) bad, the ending of the chapter
+
 #### 17. operator precedence and associativity
 
 #### 18. bit manipulation and bit masking (the more complicated examples at the end)
