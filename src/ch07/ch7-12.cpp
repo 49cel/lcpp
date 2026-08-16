@@ -1,0 +1,1 @@
+// refer to learncpp to read more about scope, duration and linkage
