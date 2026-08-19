@@ -41,3 +41,5 @@
 #### 20. difference bw storage duration and lifetime (they're confusing asf, sounds like the same thing honestly)
 
 #### 21. inline functions and their relation to header files, didn't really understand this
+
+### 22. if constexpr statements
