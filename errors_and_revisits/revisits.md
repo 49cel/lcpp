@@ -42,4 +42,6 @@
 
 #### 21. inline functions and their relation to header files, didn't really understand this
 
-### 22. if constexpr statements
+#### 22. if constexpr statements
+
+#### 24. ch 8.8 quiz (patterns)
