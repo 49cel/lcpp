@@ -48,4 +48,4 @@
 
 #### 25. ch 8.10 quiz (for loops)
 
-#### 26. prngs and mersenne twister algorithm
+#### 26. prngs and mersenne twister algorithm and global prng usage
