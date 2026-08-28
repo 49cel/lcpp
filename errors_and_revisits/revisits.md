@@ -45,3 +45,5 @@
 #### 22. if constexpr statements
 
 #### 24. ch 8.8 quiz (patterns)
+
+#### 25. ch 8.10 quiz (for loops)
