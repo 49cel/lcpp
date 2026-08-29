@@ -1,1 +1,1 @@
-// refer to ch 9.2 in learncpp to understand the different types of code coverage while testing
+// refer to ch 9.2 on learncpp to understand the different types of code coverage while testing

@@ -1,0 +1,1 @@
+// refer to ch 9.3 on learncpp to read about the most common semantic errors and look at the examples

@@ -48,7 +48,8 @@ foreach(SOURCE ${SOURCES})
             src/ch08/random.h
             src/ch08/ch8-15.cpp
             src/ch09/ch9-01.cpp
-            src/ch09/ch9-02.cpp)
+            src/ch09/ch9-02.cpp
+            src/ch09/ch9-03.cpp)
 endforeach()
 add_executable(ch2-8 src/ch02/ch2-08.cpp src/ch02/add.cpp)
 add_executable(ch2-11 src/ch02/ch2-11.cpp src/ch02/add.cpp)
