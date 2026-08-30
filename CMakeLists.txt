@@ -55,7 +55,8 @@ foreach(SOURCE ${SOURCES})
             src/ch09/ch9-06.cpp
             src/ch10/ch10-01.cpp
             src/ch10/ch10-02.cpp
-            src/ch10/ch10-03.cpp)
+            src/ch10/ch10-03.cpp
+            src/ch10/ch10-04.cpp)
 endforeach()
 add_executable(ch2-8 src/ch02/ch2-08.cpp src/ch02/add.cpp)
 add_executable(ch2-11 src/ch02/ch2-11.cpp src/ch02/add.cpp)
