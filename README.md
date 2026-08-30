@@ -1,5 +1,5 @@
 # learning c++
-- - -
+
 working through learncpp.com, going chapter by chapter. using clion as my ide.
 
 ### structure
