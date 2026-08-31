@@ -51,3 +51,5 @@
 #### 26. prngs and mersenne twister algorithm and global prng usage
 
 ### 27. ch8 summary and quiz
+
+### 28. ch10 summary and quiz
