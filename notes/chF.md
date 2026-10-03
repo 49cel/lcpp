@@ -18,3 +18,7 @@
 - note that the parameters of a constexpr function are not implicitly constexpr, and they cannot be declared as constexpr either
 - when using the `consteval` keyword, you remove the flexibility of a function to be able to get evaluated at runtime, because it is now forced to evaluate at compile time
 
+### F3 - constexpr functions (part 3) and consteval
+- - -
+- the `consteval` keyword is used to indicate that a function **must** evaluate at compile time, otherwise a compile error will result. such functions are called **immediate functions**
+
