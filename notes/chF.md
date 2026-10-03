@@ -22,3 +22,17 @@
 - - -
 - the `consteval` keyword is used to indicate that a function **must** evaluate at compile time, otherwise a compile error will result. such functions are called **immediate functions**
 
+### F4 - constexpr functions (part 4)
+- - -
+- local vars inside constexpr/consteval functions can be normal and mutable, no restriction there
+- compiler basically "runs" the function during compilation when evaluating it at compile time
+- a constexpr function can pass its own non-constexpr params/locals into another constexpr call, and that inner call can still resolve at compile time if the outer one is
+- a constexpr function can call a non-constexpr function, but only works if it's currently running in a runtime context, fails if running in a constant context
+- use `is_constant_evaluated()` to branch behavior based on which context it's running in
+- pure function = same output for same input, no side effects, these should generally be constexpr
+- mark something constexpr if it could realistically be used in a constant expression, don't if it genuinely can't
+- downsides of overusing constexpr: misleading if it can't actually be constant-evaluated, becomes part of the function's interface so removing it later can break stuff, harder to debug
+- still worth marking constexpr even if only used at runtime right now, barely any cost, and future-proofs it
+
+
+`note that i don't fully understand this yet, this is something i had to skim through and i will be coming back to this and understanding it properly, so don't mind the lackluster notes for this unit`
